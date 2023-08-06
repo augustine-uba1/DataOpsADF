@@ -1,0 +1,33 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "race_year",
+				"type": "text"
+			},
+			{
+				"name": "race_name",
+				"type": "text"
+			},
+			{
+				"name": "race_date",
+				"type": "date"
+			},
+			{
+				"name": "driver_name",
+				"type": "text"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Formular1"
+		}
+	}
+}
