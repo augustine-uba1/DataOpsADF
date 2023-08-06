@@ -1,0 +1,85 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "race_results",
+				"container": "presentation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "race_year",
+				"type": "INT32"
+			},
+			{
+				"name": "race_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "race_date",
+				"type": "INT96"
+			},
+			{
+				"name": "circuit_location",
+				"type": "UTF8"
+			},
+			{
+				"name": "driver_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "driver_number",
+				"type": "INT32"
+			},
+			{
+				"name": "driver_nationality",
+				"type": "UTF8"
+			},
+			{
+				"name": "team",
+				"type": "UTF8"
+			},
+			{
+				"name": "grid",
+				"type": "INT32"
+			},
+			{
+				"name": "fastest_lap",
+				"type": "INT32"
+			},
+			{
+				"name": "race_time",
+				"type": "UTF8"
+			},
+			{
+				"name": "points",
+				"type": "FLOAT"
+			},
+			{
+				"name": "position",
+				"type": "INT32"
+			},
+			{
+				"name": "file_date",
+				"type": "UTF8"
+			},
+			{
+				"name": "created_date",
+				"type": "INT96"
+			},
+			{
+				"name": "race_id",
+				"type": "UTF8"
+			}
+		]
+	}
+}
