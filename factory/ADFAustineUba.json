@@ -1,0 +1,9 @@
+{
+	"name": "ADFAustineUba",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c04f4fb4-cf82-4387-8e39-c28436a63c38",
+		"tenantId": "19e6cd8e-58ff-4aaa-a13f-e176857d78b2"
+	}
+}
